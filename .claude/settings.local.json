@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(composer require:*)",
+      "Bash(php artisan:*)",
+      "Bash(npm run:*)",
+      "Bash(find /Users/jdev/www/laravel/neolabs-ai/vendor/laravel/ai -name *.php -path */Facades/*)",
+      "Bash(vendor/bin/pint --dirty --format agent 2>&1)",
+      "Bash(find /Users/jdev/www/laravel/neolabs-ai -type f -name *image* -o -name *generation* -o -name *ai*)",
+      "Bash(grep -E \"\\\\.\\(php|tsx?|json\\)$\")",
+      "Bash(xargs ls:*)",
+      "Bash(find /Users/jdev/www/laravel/neolabs-ai/app -type f -name *Agent* -o -name *agent*)",
+      "Bash(find /Users/jdev/www/laravel/neolabs-ai/app -type f \\\\\\(-name *.php \\\\\\))",
+      "Bash(grep -r \"conversation\\\\|agent\\\\|chat\" /Users/jdev/www/laravel/neolabs-ai/app --include=*.php)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_install",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "mcp__laravel-boost__database-query",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "mcp__plugin_playwright_playwright__browser_resize"
+    ]
+  }
+}
